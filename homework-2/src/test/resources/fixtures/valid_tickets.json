@@ -1,0 +1,18 @@
+[
+  {
+    "customer_id": "CUST001",
+    "customer_email": "test@example.com",
+    "customer_name": "Test User",
+    "subject": "Test Subject",
+    "description": "This is a test description with enough characters",
+    "category": "TECHNICAL_ISSUE",
+    "priority": "HIGH",
+    "status": "NEW",
+    "tags": ["test", "demo"],
+    "metadata": {
+      "source": "WEB_FORM",
+      "browser": "Chrome",
+      "device_type": "DESKTOP"
+    }
+  }
+]

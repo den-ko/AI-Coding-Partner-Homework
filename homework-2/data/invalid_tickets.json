@@ -1,0 +1,13 @@
+[
+  {
+    "id": "not-a-valid-uuid",
+    "customer_id": "",
+    "customer_email": "not-an-email",
+    "customer_name": "",
+    "subject": "",
+    "description": "Short",
+    "category": "INVALID_CATEGORY",
+    "priority": "INVALID_PRIORITY",
+    "status": "INVALID_STATUS"
+  }
+]
