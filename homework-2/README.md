@@ -1,3 +1,7 @@
+**Student** : Denys Kobernik
+**Submitted** : 09.02.2026
+**AI tool used** : GitHub Copilot
+
 # Customer Support Ticket Management System
 
 A Spring Boot REST API for managing customer support tickets with multi-format import capabilities (CSV, JSON, XML).
