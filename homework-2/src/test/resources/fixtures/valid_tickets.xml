@@ -1,0 +1,20 @@
+<tickets>
+  <ticket>
+    <customer_id>CUST001</customer_id>
+    <customer_email>test@example.com</customer_email>
+    <customer_name>Test User</customer_name>
+    <subject>Test Subject</subject>
+    <description>This is a test description with enough characters</description>
+    <category>TECHNICAL_ISSUE</category>
+    <priority>HIGH</priority>
+    <status>NEW</status>
+    <tags>
+      <tag>test</tag>
+    </tags>
+    <metadata>
+      <source>WEB_FORM</source>
+      <browser>Chrome</browser>
+      <device_type>DESKTOP</device_type>
+    </metadata>
+  </ticket>
+</tickets>

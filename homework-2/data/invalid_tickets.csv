@@ -1,0 +1,2 @@
+id,customer_id,customer_email,customer_name,subject,description,category,priority,status
+invalid-uuid,CUST999,invalid-email,Test User,Short,Too short,INVALID_CAT,INVALID_PRIORITY,INVALID_STATUS

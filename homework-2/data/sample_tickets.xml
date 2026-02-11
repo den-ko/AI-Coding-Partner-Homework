@@ -1,0 +1,782 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tickets>
+  <ticket>
+    <id>770e8400-e29b-41d4-a716-446655440001</id>
+    <customer_id>CUST201</customer_id>
+    <customer_email>andrew.baker@example.com</customer_email>
+    <customer_name>Andrew Baker</customer_name>
+    <subject>Website not loading properly</subject>
+    <description>The main website homepage is not loading correctly in my browser. Images are missing and the layout is broken.</description>
+    <category>TECHNICAL_ISSUE</category>
+    <priority>HIGH</priority>
+    <status>NEW</status>
+    <created_at>2026-02-01T10:00:00</created_at>
+    <updated_at>2026-02-01T10:00:00</updated_at>
+    <resolved_at></resolved_at>
+    <assigned_to></assigned_to>
+    <tags>
+      <tag>website</tag>
+      <tag>loading</tag>
+      <tag>layout</tag>
+    </tags>
+    <metadata>
+      <source>WEB_FORM</source>
+      <browser>Chrome 120</browser>
+      <device_type>DESKTOP</device_type>
+    </metadata>
+  </ticket>
+  
+  <ticket>
+    <id>770e8400-e29b-41d4-a716-446655440002</id>
+    <customer_id>CUST202</customer_id>
+    <customer_email>betty.clark@example.com</customer_email>
+    <customer_name>Betty Clark</customer_name>
+    <subject>Unable to access my account</subject>
+    <description>I've been locked out of my account after multiple failed login attempts. Need help regaining access urgently.</description>
+    <category>ACCOUNT_ACCESS</category>
+    <priority>URGENT</priority>
+    <status>IN_PROGRESS</status>
+    <created_at>2026-02-01T11:30:00</created_at>
+    <updated_at>2026-02-01T12:15:00</updated_at>
+    <resolved_at></resolved_at>
+    <assigned_to>Sarah Chen</assigned_to>
+    <tags>
+      <tag>locked</tag>
+      <tag>access</tag>
+      <tag>urgent</tag>
+    </tags>
+    <metadata>
+      <source>EMAIL</source>
+      <browser></browser>
+      <device_type>MOBILE</device_type>
+    </metadata>
+  </ticket>
+  
+  <ticket>
+    <id>770e8400-e29b-41d4-a716-446655440003</id>
+    <customer_id>CUST203</customer_id>
+    <customer_email>carlos.davis@example.com</customer_email>
+    <customer_name>Carlos Davis</customer_name>
+    <subject>Billing discrepancy on invoice</subject>
+    <description>There's a discrepancy on my latest invoice. I was charged for features I didn't subscribe to. Please investigate.</description>
+    <category>BILLING_QUESTION</category>
+    <priority>MEDIUM</priority>
+    <status>NEW</status>
+    <created_at>2026-02-01T14:20:00</created_at>
+    <updated_at>2026-02-01T14:20:00</updated_at>
+    <resolved_at></resolved_at>
+    <assigned_to></assigned_to>
+    <tags>
+      <tag>billing</tag>
+      <tag>invoice</tag>
+      <tag>discrepancy</tag>
+    </tags>
+    <metadata>
+      <source>CHAT</source>
+      <browser></browser>
+      <device_type>TABLET</device_type>
+    </metadata>
+  </ticket>
+  
+  <ticket>
+    <id>770e8400-e29b-41d4-a716-446655440004</id>
+    <customer_id>CUST204</customer_id>
+    <customer_email>diana.evans@example.com</customer_email>
+    <customer_name>Diana Evans</customer_name>
+    <subject>Request for mobile notifications</subject>
+    <description>Would love to have push notifications on the mobile app so I don't miss important updates. This would be very helpful.</description>
+    <category>FEATURE_REQUEST</category>
+    <priority>LOW</priority>
+    <status>NEW</status>
+    <created_at>2026-02-02T09:10:00</created_at>
+    <updated_at>2026-02-02T09:10:00</updated_at>
+    <resolved_at></resolved_at>
+    <assigned_to></assigned_to>
+    <tags>
+      <tag>notifications</tag>
+      <tag>mobile</tag>
+      <tag>push</tag>
+    </tags>
+    <metadata>
+      <source>WEB_FORM</source>
+      <browser>Safari 17</browser>
+      <device_type>MOBILE</device_type>
+    </metadata>
+  </ticket>
+  
+  <ticket>
+    <id>770e8400-e29b-41d4-a716-446655440005</id>
+    <customer_id>CUST205</customer_id>
+    <customer_email>ethan.foster@example.com</customer_email>
+    <customer_name>Ethan Foster</customer_name>
+    <subject>App crashes when uploading large files</subject>
+    <description>The application crashes consistently when I try to upload files larger than 50MB. This is a critical bug that needs to be fixed.</description>
+    <category>BUG_REPORT</category>
+    <priority>HIGH</priority>
+    <status>IN_PROGRESS</status>
+    <created_at>2026-02-02T10:45:00</created_at>
+    <updated_at>2026-02-02T11:30:00</updated_at>
+    <resolved_at></resolved_at>
+    <assigned_to>Mike Rodriguez</assigned_to>
+    <tags>
+      <tag>crash</tag>
+      <tag>upload</tag>
+      <tag>files</tag>
+    </tags>
+    <metadata>
+      <source>API</source>
+      <browser></browser>
+      <device_type>DESKTOP</device_type>
+    </metadata>
+  </ticket>
+  
+  <ticket>
+    <id>770e8400-e29b-41d4-a716-446655440006</id>
+    <customer_id>CUST206</customer_id>
+    <customer_email>fiona.green@example.com</customer_email>
+    <customer_name>Fiona Green</customer_name>
+    <subject>Slow response time on API calls</subject>
+    <description>API endpoints are responding very slowly, taking 5-10 seconds per request. This is impacting our production system performance.</description>
+    <category>TECHNICAL_ISSUE</category>
+    <priority>URGENT</priority>
+    <status>NEW</status>
+    <created_at>2026-02-02T13:00:00</created_at>
+    <updated_at>2026-02-02T13:00:00</updated_at>
+    <resolved_at></resolved_at>
+    <assigned_to></assigned_to>
+    <tags>
+      <tag>api</tag>
+      <tag>performance</tag>
+      <tag>slow</tag>
+    </tags>
+    <metadata>
+      <source>EMAIL</source>
+      <browser></browser>
+      <device_type>DESKTOP</device_type>
+    </metadata>
+  </ticket>
+  
+  <ticket>
+    <id>770e8400-e29b-41d4-a716-446655440007</id>
+    <customer_id>CUST207</customer_id>
+    <customer_email>george.hall@example.com</customer_email>
+    <customer_name>George Hall</customer_name>
+    <subject>Can't change email address</subject>
+    <description>I'm trying to update my email address in account settings but the save button doesn't work. No error message is shown.</description>
+    <category>ACCOUNT_ACCESS</category>
+    <priority>MEDIUM</priority>
+    <status>NEW</status>
+    <created_at>2026-02-03T08:30:00</created_at>
+    <updated_at>2026-02-03T08:30:00</updated_at>
+    <resolved_at></resolved_at>
+    <assigned_to></assigned_to>
+    <tags>
+      <tag>email</tag>
+      <tag>settings</tag>
+      <tag>update</tag>
+    </tags>
+    <metadata>
+      <source>WEB_FORM</source>
+      <browser>Firefox 122</browser>
+      <device_type>DESKTOP</device_type>
+    </metadata>
+  </ticket>
+  
+  <ticket>
+    <id>770e8400-e29b-41d4-a716-446655440008</id>
+    <customer_id>CUST208</customer_id>
+    <customer_email>hannah.irwin@example.com</customer_email>
+    <customer_name>Hannah Irwin</customer_name>
+    <subject>Request invoice for tax purposes</subject>
+    <description>I need a detailed invoice for the past year's transactions for my tax filing. Can you provide this?</description>
+    <category>BILLING_QUESTION</category>
+    <priority>LOW</priority>
+    <status>RESOLVED</status>
+    <created_at>2026-02-03T10:00:00</created_at>
+    <updated_at>2026-02-03T14:30:00</updated_at>
+    <resolved_at>2026-02-03T14:30:00</resolved_at>
+    <assigned_to>Tom Anderson</assigned_to>
+    <tags>
+      <tag>invoice</tag>
+      <tag>tax</tag>
+      <tag>records</tag>
+    </tags>
+    <metadata>
+      <source>PHONE</source>
+      <browser></browser>
+      <device_type>MOBILE</device_type>
+    </metadata>
+  </ticket>
+  
+  <ticket>
+    <id>770e8400-e29b-41d4-a716-446655440009</id>
+    <customer_id>CUST209</customer_id>
+    <customer_email>ivan.johnson@example.com</customer_email>
+    <customer_name>Ivan Johnson</customer_name>
+    <subject>Add support for webhooks</subject>
+    <description>We need webhook support to integrate with our internal systems. This would allow real-time event notifications.</description>
+    <category>FEATURE_REQUEST</category>
+    <priority>HIGH</priority>
+    <status>NEW</status>
+    <created_at>2026-02-03T11:45:00</created_at>
+    <updated_at>2026-02-03T11:45:00</updated_at>
+    <resolved_at></resolved_at>
+    <assigned_to></assigned_to>
+    <tags>
+      <tag>webhooks</tag>
+      <tag>integration</tag>
+      <tag>api</tag>
+    </tags>
+    <metadata>
+      <source>API</source>
+      <browser></browser>
+      <device_type>DESKTOP</device_type>
+    </metadata>
+  </ticket>
+  
+  <ticket>
+    <id>770e8400-e29b-41d4-a716-446655440010</id>
+    <customer_id>CUST210</customer_id>
+    <customer_email>jessica.king@example.com</customer_email>
+    <customer_name>Jessica King</customer_name>
+    <subject>Date picker shows wrong dates</subject>
+    <description>The date picker component is displaying dates from the wrong month. When I select January, it shows February dates instead.</description>
+    <category>BUG_REPORT</category>
+    <priority>MEDIUM</priority>
+    <status>NEW</status>
+    <created_at>2026-02-03T14:20:00</created_at>
+    <updated_at>2026-02-03T14:20:00</updated_at>
+    <resolved_at></resolved_at>
+    <assigned_to></assigned_to>
+    <tags>
+      <tag>datepicker</tag>
+      <tag>ui</tag>
+      <tag>calendar</tag>
+    </tags>
+    <metadata>
+      <source>WEB_FORM</source>
+      <browser>Edge 121</browser>
+      <device_type>TABLET</device_type>
+    </metadata>
+  </ticket>
+  
+  <ticket>
+    <id>770e8400-e29b-41d4-a716-446655440011</id>
+    <customer_id>CUST211</customer_id>
+    <customer_email>keith.lopez@example.com</customer_email>
+    <customer_name>Keith Lopez</customer_name>
+    <subject>Connection keeps dropping</subject>
+    <description>My connection to the service keeps dropping every 10-15 minutes. Have to constantly reconnect which is very disruptive.</description>
+    <category>TECHNICAL_ISSUE</category>
+    <priority>HIGH</priority>
+    <status>IN_PROGRESS</status>
+    <created_at>2026-02-04T09:00:00</created_at>
+    <updated_at>2026-02-04T10:15:00</updated_at>
+    <resolved_at></resolved_at>
+    <assigned_to>Sarah Chen</assigned_to>
+    <tags>
+      <tag>connection</tag>
+      <tag>disconnect</tag>
+      <tag>network</tag>
+    </tags>
+    <metadata>
+      <source>CHAT</source>
+      <browser></browser>
+      <device_type>DESKTOP</device_type>
+    </metadata>
+  </ticket>
+  
+  <ticket>
+    <id>770e8400-e29b-41d4-a716-446655440012</id>
+    <customer_id>CUST212</customer_id>
+    <customer_email>laura.martinez@example.com</customer_email>
+    <customer_name>Laura Martinez</customer_name>
+    <subject>Password requirements too complex</subject>
+    <description>The password requirements are extremely complex and difficult to remember. Can they be simplified while maintaining security?</description>
+    <category>ACCOUNT_ACCESS</category>
+    <priority>LOW</priority>
+    <status>NEW</status>
+    <created_at>2026-02-04T11:20:00</created_at>
+    <updated_at>2026-02-04T11:20:00</updated_at>
+    <resolved_at></resolved_at>
+    <assigned_to></assigned_to>
+    <tags>
+      <tag>password</tag>
+      <tag>security</tag>
+      <tag>requirements</tag>
+    </tags>
+    <metadata>
+      <source>EMAIL</source>
+      <browser></browser>
+      <device_type>MOBILE</device_type>
+    </metadata>
+  </ticket>
+  
+  <ticket>
+    <id>770e8400-e29b-41d4-a716-446655440013</id>
+    <customer_id>CUST213</customer_id>
+    <customer_email>mike.nelson@example.com</customer_email>
+    <customer_name>Mike Nelson</customer_name>
+    <subject>Subscription auto-renewal charge</subject>
+    <description>My subscription was auto-renewed without prior notification. I would have cancelled if I had known. Need a refund.</description>
+    <category>BILLING_QUESTION</category>
+    <priority>HIGH</priority>
+    <status>WAITING_CUSTOMER</status>
+    <created_at>2026-02-04T13:40:00</created_at>
+    <updated_at>2026-02-04T15:00:00</updated_at>
+    <resolved_at></resolved_at>
+    <assigned_to>Mike Rodriguez</assigned_to>
+    <tags>
+      <tag>renewal</tag>
+      <tag>subscription</tag>
+      <tag>refund</tag>
+    </tags>
+    <metadata>
+      <source>PHONE</source>
+      <browser></browser>
+      <device_type>MOBILE</device_type>
+    </metadata>
+  </ticket>
+  
+  <ticket>
+    <id>770e8400-e29b-41d4-a716-446655440014</id>
+    <customer_id>CUST214</customer_id>
+    <customer_email>nina.owens@example.com</customer_email>
+    <customer_name>Nina Owens</customer_name>
+    <subject>Advanced analytics dashboard</subject>
+    <description>Would like to see an advanced analytics dashboard with customizable charts and metrics for better data visualization.</description>
+    <category>FEATURE_REQUEST</category>
+    <priority>MEDIUM</priority>
+    <status>NEW</status>
+    <created_at>2026-02-04T15:10:00</created_at>
+    <updated_at>2026-02-04T15:10:00</updated_at>
+    <resolved_at></resolved_at>
+    <assigned_to></assigned_to>
+    <tags>
+      <tag>analytics</tag>
+      <tag>dashboard</tag>
+      <tag>charts</tag>
+    </tags>
+    <metadata>
+      <source>WEB_FORM</source>
+      <browser>Chrome 120</browser>
+      <device_type>DESKTOP</device_type>
+    </metadata>
+  </ticket>
+  
+  <ticket>
+    <id>770e8400-e29b-41d4-a716-446655440015</id>
+    <customer_id>CUST215</customer_id>
+    <customer_email>oscar.perez@example.com</customer_email>
+    <customer_name>Oscar Perez</customer_name>
+    <subject>Pagination broken on results page</subject>
+    <description>The pagination controls on the search results page don't work properly. Clicking next page just reloads the first page.</description>
+    <category>BUG_REPORT</category>
+    <priority>MEDIUM</priority>
+    <status>NEW</status>
+    <created_at>2026-02-05T08:45:00</created_at>
+    <updated_at>2026-02-05T08:45:00</updated_at>
+    <resolved_at></resolved_at>
+    <assigned_to></assigned_to>
+    <tags>
+      <tag>pagination</tag>
+      <tag>search</tag>
+      <tag>navigation</tag>
+    </tags>
+    <metadata>
+      <source>WEB_FORM</source>
+      <browser>Safari 17</browser>
+      <device_type>TABLET</device_type>
+    </metadata>
+  </ticket>
+  
+  <ticket>
+    <id>770e8400-e29b-41d4-a716-446655440016</id>
+    <customer_id>CUST216</customer_id>
+    <customer_email>paula.quinn@example.com</customer_email>
+    <customer_name>Paula Quinn</customer_name>
+    <subject>SSL certificate error</subject>
+    <description>Getting SSL certificate errors when trying to access the application. Says the certificate is invalid or expired.</description>
+    <category>TECHNICAL_ISSUE</category>
+    <priority>URGENT</priority>
+    <status>RESOLVED</status>
+    <created_at>2026-02-05T10:00:00</created_at>
+    <updated_at>2026-02-05T12:30:00</updated_at>
+    <resolved_at>2026-02-05T12:30:00</resolved_at>
+    <assigned_to>Tom Anderson</assigned_to>
+    <tags>
+      <tag>ssl</tag>
+      <tag>certificate</tag>
+      <tag>security</tag>
+    </tags>
+    <metadata>
+      <source>EMAIL</source>
+      <browser></browser>
+      <device_type>DESKTOP</device_type>
+    </metadata>
+  </ticket>
+  
+  <ticket>
+    <id>770e8400-e29b-41d4-a716-446655440017</id>
+    <customer_id>CUST217</customer_id>
+    <customer_email>quincy.roberts@example.com</customer_email>
+    <customer_name>Quincy Roberts</customer_name>
+    <subject>Two-factor auth bypass issue</subject>
+    <description>Found a way to bypass two-factor authentication under certain conditions. This is a serious security vulnerability.</description>
+    <category>ACCOUNT_ACCESS</category>
+    <priority>URGENT</priority>
+    <status>IN_PROGRESS</status>
+    <created_at>2026-02-05T11:30:00</created_at>
+    <updated_at>2026-02-05T12:00:00</updated_at>
+    <resolved_at></resolved_at>
+    <assigned_to>Sarah Chen</assigned_to>
+    <tags>
+      <tag>2fa</tag>
+      <tag>security</tag>
+      <tag>vulnerability</tag>
+    </tags>
+    <metadata>
+      <source>API</source>
+      <browser></browser>
+      <device_type>DESKTOP</device_type>
+    </metadata>
+  </ticket>
+  
+  <ticket>
+    <id>770e8400-e29b-41d4-a716-446655440018</id>
+    <customer_id>CUST218</customer_id>
+    <customer_email>rachel.smith@example.com</customer_email>
+    <customer_name>Rachel Smith</customer_name>
+    <subject>Discount code not applied</subject>
+    <description>I entered a valid discount code at checkout but it wasn't applied to my purchase. Still charged full price.</description>
+    <category>BILLING_QUESTION</category>
+    <priority>MEDIUM</priority>
+    <status>NEW</status>
+    <created_at>2026-02-05T14:15:00</created_at>
+    <updated_at>2026-02-05T14:15:00</updated_at>
+    <resolved_at></resolved_at>
+    <assigned_to></assigned_to>
+    <tags>
+      <tag>discount</tag>
+      <tag>promo</tag>
+      <tag>checkout</tag>
+    </tags>
+    <metadata>
+      <source>CHAT</source>
+      <browser></browser>
+      <device_type>MOBILE</device_type>
+    </metadata>
+  </ticket>
+  
+  <ticket>
+    <id>770e8400-e29b-41d4-a716-446655440019</id>
+    <customer_id>CUST219</customer_id>
+    <customer_email>steven.taylor@example.com</customer_email>
+    <customer_name>Steven Taylor</customer_name>
+    <subject>Scheduled reports feature</subject>
+    <description>Need ability to schedule automated reports to be sent via email daily or weekly. Would save a lot of manual work.</description>
+    <category>FEATURE_REQUEST</category>
+    <priority>MEDIUM</priority>
+    <status>NEW</status>
+    <created_at>2026-02-06T09:30:00</created_at>
+    <updated_at>2026-02-06T09:30:00</updated_at>
+    <resolved_at></resolved_at>
+    <assigned_to></assigned_to>
+    <tags>
+      <tag>reports</tag>
+      <tag>scheduling</tag>
+      <tag>automation</tag>
+    </tags>
+    <metadata>
+      <source>WEB_FORM</source>
+      <browser>Firefox 122</browser>
+      <device_type>DESKTOP</device_type>
+    </metadata>
+  </ticket>
+  
+  <ticket>
+    <id>770e8400-e29b-41d4-a716-446655440020</id>
+    <customer_id>CUST220</customer_id>
+    <customer_email>tina.upton@example.com</customer_email>
+    <customer_name>Tina Upton</customer_name>
+    <subject>Modal dialog won't close</subject>
+    <description>The confirmation modal dialog gets stuck and won't close even after clicking the X button or cancel. Have to refresh page.</description>
+    <category>BUG_REPORT</category>
+    <priority>LOW</priority>
+    <status>NEW</status>
+    <created_at>2026-02-06T11:00:00</created_at>
+    <updated_at>2026-02-06T11:00:00</updated_at>
+    <resolved_at></resolved_at>
+    <assigned_to></assigned_to>
+    <tags>
+      <tag>modal</tag>
+      <tag>dialog</tag>
+      <tag>ui</tag>
+    </tags>
+    <metadata>
+      <source>EMAIL</source>
+      <browser></browser>
+      <device_type>TABLET</device_type>
+    </metadata>
+  </ticket>
+  
+  <ticket>
+    <id>770e8400-e29b-41d4-a716-446655440021</id>
+    <customer_id>CUST221</customer_id>
+    <customer_email>ursula.vincent@example.com</customer_email>
+    <customer_name>Ursula Vincent</customer_name>
+    <subject>Database connection timeout</subject>
+    <description>Application is timing out when trying to load data. Error message mentions database connection issues.</description>
+    <category>TECHNICAL_ISSUE</category>
+    <priority>HIGH</priority>
+    <status>IN_PROGRESS</status>
+    <created_at>2026-02-06T13:20:00</created_at>
+    <updated_at>2026-02-06T14:00:00</updated_at>
+    <resolved_at></resolved_at>
+    <assigned_to>Mike Rodriguez</assigned_to>
+    <tags>
+      <tag>database</tag>
+      <tag>timeout</tag>
+      <tag>connection</tag>
+    </tags>
+    <metadata>
+      <source>PHONE</source>
+      <browser></browser>
+      <device_type>DESKTOP</device_type>
+    </metadata>
+  </ticket>
+  
+  <ticket>
+    <id>770e8400-e29b-41d4-a716-446655440022</id>
+    <customer_id>CUST222</customer_id>
+    <customer_email>victor.walsh@example.com</customer_email>
+    <customer_name>Victor Walsh</customer_name>
+    <subject>Email not syncing properly</subject>
+    <description>My email notifications are not syncing with my inbox. Some messages arrive late or not at all.</description>
+    <category>ACCOUNT_ACCESS</category>
+    <priority>MEDIUM</priority>
+    <status>NEW</status>
+    <created_at>2026-02-06T15:45:00</created_at>
+    <updated_at>2026-02-06T15:45:00</updated_at>
+    <resolved_at></resolved_at>
+    <assigned_to></assigned_to>
+    <tags>
+      <tag>email</tag>
+      <tag>sync</tag>
+      <tag>notifications</tag>
+    </tags>
+    <metadata>
+      <source>WEB_FORM</source>
+      <browser>Chrome 120</browser>
+      <device_type>MOBILE</device_type>
+    </metadata>
+  </ticket>
+  
+  <ticket>
+    <id>770e8400-e29b-41d4-a716-446655440023</id>
+    <customer_id>CUST223</customer_id>
+    <customer_email>wendy.xavier@example.com</customer_email>
+    <customer_name>Wendy Xavier</customer_name>
+    <subject>Overcharged for storage upgrade</subject>
+    <description>I upgraded to 100GB storage but was charged for the 500GB plan instead. Please correct this billing error.</description>
+    <category>BILLING_QUESTION</category>
+    <priority>HIGH</priority>
+    <status>RESOLVED</status>
+    <created_at>2026-02-07T08:00:00</created_at>
+    <updated_at>2026-02-07T11:00:00</updated_at>
+    <resolved_at>2026-02-07T11:00:00</resolved_at>
+    <assigned_to>Tom Anderson</assigned_to>
+    <tags>
+      <tag>storage</tag>
+      <tag>upgrade</tag>
+      <tag>overcharge</tag>
+    </tags>
+    <metadata>
+      <source>EMAIL</source>
+      <browser></browser>
+      <device_type>DESKTOP</device_type>
+    </metadata>
+  </ticket>
+  
+  <ticket>
+    <id>770e8400-e29b-41d4-a716-446655440024</id>
+    <customer_id>CUST224</customer_id>
+    <customer_email>xavier.young@example.com</customer_email>
+    <customer_name>Xavier Young</customer_name>
+    <subject>Version control for documents</subject>
+    <description>Would be great to have version control for documents so we can track changes and revert to previous versions if needed.</description>
+    <category>FEATURE_REQUEST</category>
+    <priority>LOW</priority>
+    <status>NEW</status>
+    <created_at>2026-02-07T10:30:00</created_at>
+    <updated_at>2026-02-07T10:30:00</updated_at>
+    <resolved_at></resolved_at>
+    <assigned_to></assigned_to>
+    <tags>
+      <tag>version-control</tag>
+      <tag>documents</tag>
+      <tag>history</tag>
+    </tags>
+    <metadata>
+      <source>CHAT</source>
+      <browser></browser>
+      <device_type>TABLET</device_type>
+    </metadata>
+  </ticket>
+  
+  <ticket>
+    <id>770e8400-e29b-41d4-a716-446655440025</id>
+    <customer_id>CUST225</customer_id>
+    <customer_email>yolanda.zimmerman@example.com</customer_email>
+    <customer_name>Yolanda Zimmerman</customer_name>
+    <subject>Incorrect data in export file</subject>
+    <description>The CSV export contains incorrect data that doesn't match what's displayed in the application. Several fields are wrong.</description>
+    <category>BUG_REPORT</category>
+    <priority>HIGH</priority>
+    <status>NEW</status>
+    <created_at>2026-02-07T12:15:00</created_at>
+    <updated_at>2026-02-07T12:15:00</updated_at>
+    <resolved_at></resolved_at>
+    <assigned_to></assigned_to>
+    <tags>
+      <tag>export</tag>
+      <tag>csv</tag>
+      <tag>data</tag>
+    </tags>
+    <metadata>
+      <source>API</source>
+      <browser></browser>
+      <device_type>DESKTOP</device_type>
+    </metadata>
+  </ticket>
+  
+  <ticket>
+    <id>770e8400-e29b-41d4-a716-446655440026</id>
+    <customer_id>CUST226</customer_id>
+    <customer_email>zachary.adams@example.com</customer_email>
+    <customer_name>Zachary Adams</customer_name>
+    <subject>Server maintenance notification</subject>
+    <description>Received server maintenance notification but service is still down past the scheduled window. What's the status?</description>
+    <category>TECHNICAL_ISSUE</category>
+    <priority>MEDIUM</priority>
+    <status>NEW</status>
+    <created_at>2026-02-07T14:00:00</created_at>
+    <updated_at>2026-02-07T14:00:00</updated_at>
+    <resolved_at></resolved_at>
+    <assigned_to></assigned_to>
+    <tags>
+      <tag>maintenance</tag>
+      <tag>downtime</tag>
+      <tag>server</tag>
+    </tags>
+    <metadata>
+      <source>WEB_FORM</source>
+      <browser>Edge 121</browser>
+      <device_type>DESKTOP</device_type>
+    </metadata>
+  </ticket>
+  
+  <ticket>
+    <id>770e8400-e29b-41d4-a716-446655440027</id>
+    <customer_id>CUST227</customer_id>
+    <customer_email>amy.brooks@example.com</customer_email>
+    <customer_name>Amy Brooks</customer_name>
+    <subject>Cannot verify account email</subject>
+    <description>Haven't received the email verification link after signing up. Tried resending multiple times but nothing arrives.</description>
+    <category>ACCOUNT_ACCESS</category>
+    <priority>HIGH</priority>
+    <status>IN_PROGRESS</status>
+    <created_at>2026-02-07T15:30:00</created_at>
+    <updated_at>2026-02-07T16:00:00</updated_at>
+    <resolved_at></resolved_at>
+    <assigned_to>Sarah Chen</assigned_to>
+    <tags>
+      <tag>verification</tag>
+      <tag>email</tag>
+      <tag>signup</tag>
+    </tags>
+    <metadata>
+      <source>PHONE</source>
+      <browser></browser>
+      <device_type>MOBILE</device_type>
+    </metadata>
+  </ticket>
+  
+  <ticket>
+    <id>770e8400-e29b-41d4-a716-446655440028</id>
+    <customer_id>CUST228</customer_id>
+    <customer_email>brian.carter@example.com</customer_email>
+    <customer_name>Brian Carter</customer_name>
+    <subject>Payment method validation failed</subject>
+    <description>Tried adding a new payment method but it keeps failing validation even though the card details are correct.</description>
+    <category>BILLING_QUESTION</category>
+    <priority>MEDIUM</priority>
+    <status>WAITING_CUSTOMER</status>
+    <created_at>2026-02-07T16:45:00</created_at>
+    <updated_at>2026-02-07T17:30:00</updated_at>
+    <resolved_at></resolved_at>
+    <assigned_to>Mike Rodriguez</assigned_to>
+    <tags>
+      <tag>payment</tag>
+      <tag>validation</tag>
+      <tag>card</tag>
+    </tags>
+    <metadata>
+      <source>WEB_FORM</source>
+      <browser>Safari 17</browser>
+      <device_type>DESKTOP</device_type>
+    </metadata>
+  </ticket>
+  
+  <ticket>
+    <id>770e8400-e29b-41d4-a716-446655440029</id>
+    <customer_id>CUST229</customer_id>
+    <customer_email>cathy.davis@example.com</customer_email>
+    <customer_name>Cathy Davis</customer_name>
+    <subject>Collaborative editing feature</subject>
+    <description>Would love to see real-time collaborative editing where multiple team members can work on the same document simultaneously.</description>
+    <category>FEATURE_REQUEST</category>
+    <priority>HIGH</priority>
+    <status>NEW</status>
+    <created_at>2026-02-08T08:15:00</created_at>
+    <updated_at>2026-02-08T08:15:00</updated_at>
+    <resolved_at></resolved_at>
+    <assigned_to></assigned_to>
+    <tags>
+      <tag>collaboration</tag>
+      <tag>editing</tag>
+      <tag>realtime</tag>
+    </tags>
+    <metadata>
+      <source>EMAIL</source>
+      <browser></browser>
+      <device_type>DESKTOP</device_type>
+    </metadata>
+  </ticket>
+  
+  <ticket>
+    <id>770e8400-e29b-41d4-a716-446655440030</id>
+    <customer_id>CUST230</customer_id>
+    <customer_email>dennis.ellis@example.com</customer_email>
+    <customer_name>Dennis Ellis</customer_name>
+    <subject>Tooltip text overlaps button</subject>
+    <description>On smaller screens the tooltip text overlaps with nearby buttons making it hard to click anything. Minor cosmetic issue.</description>
+    <category>BUG_REPORT</category>
+    <priority>LOW</priority>
+    <status>NEW</status>
+    <created_at>2026-02-08T09:45:00</created_at>
+    <updated_at>2026-02-08T09:45:00</updated_at>
+    <resolved_at></resolved_at>
+    <assigned_to></assigned_to>
+    <tags>
+      <tag>tooltip</tag>
+      <tag>ui</tag>
+      <tag>responsive</tag>
+    </tags>
+    <metadata>
+      <source>WEB_FORM</source>
+      <browser>Chrome 120</browser>
+      <device_type>MOBILE</device_type>
+    </metadata>
+  </ticket>
+</tickets>

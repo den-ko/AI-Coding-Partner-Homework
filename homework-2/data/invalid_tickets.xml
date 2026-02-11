@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tickets>
+  <ticket>
+    <id>not-a-uuid</id>
+    <customer_id></customer_id>
+    <customer_email>invalid-email</customer_email>
+    <customer_name></customer_name>
+    <subject></subject>
+    <description>Too short</description>
+    <category>INVALID</category>
+    <priority>INVALID</priority>
+    <status>INVALID</status>
+  </ticket>
+</tickets>

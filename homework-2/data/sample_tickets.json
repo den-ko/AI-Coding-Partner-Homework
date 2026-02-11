@@ -1,0 +1,422 @@
+[
+  {
+    "id": "660e8400-e29b-41d4-a716-446655440001",
+    "customer_id": "CUST101",
+    "customer_email": "alex.brown@example.com",
+    "customer_name": "Alex Brown",
+    "subject": "API rate limit too restrictive",
+    "description": "The current API rate limit of 100 requests per minute is too low for our use case. We need at least 500 requests per minute for our integration to work properly.",
+    "category": "TECHNICAL_ISSUE",
+    "priority": "HIGH",
+    "status": "NEW",
+    "created_at": "2026-02-01T08:00:00",
+    "updated_at": "2026-02-01T08:00:00",
+    "resolved_at": null,
+    "assigned_to": null,
+    "tags": ["api", "rate-limit", "integration"],
+    "metadata": {
+      "source": "API",
+      "browser": "Postman",
+      "device_type": "DESKTOP"
+    }
+  },
+  {
+    "id": "660e8400-e29b-41d4-a716-446655440002",
+    "customer_id": "CUST102",
+    "customer_email": "beth.cooper@example.com",
+    "customer_name": "Beth Cooper",
+    "subject": "Cannot reset password",
+    "description": "I've tried multiple times to reset my password but the reset link in the email doesn't work. Clicking it just shows a blank page.",
+    "category": "ACCOUNT_ACCESS",
+    "priority": "URGENT",
+    "status": "IN_PROGRESS",
+    "created_at": "2026-02-01T09:30:00",
+    "updated_at": "2026-02-01T10:15:00",
+    "resolved_at": null,
+    "assigned_to": "Sarah Chen",
+    "tags": ["password", "reset", "email"],
+    "metadata": {
+      "source": "WEB_FORM",
+      "browser": "Chrome 120",
+      "device_type": "DESKTOP"
+    }
+  },
+  {
+    "id": "660e8400-e29b-41d4-a716-446655440003",
+    "customer_id": "CUST103",
+    "customer_email": "carlos.diaz@example.com",
+    "customer_name": "Carlos Diaz",
+    "subject": "Refund not processed",
+    "description": "I requested a refund two weeks ago for my cancelled subscription but still haven't received it. My ticket number is #12345.",
+    "category": "BILLING_QUESTION",
+    "priority": "HIGH",
+    "status": "WAITING_CUSTOMER",
+    "created_at": "2026-02-01T11:00:00",
+    "updated_at": "2026-02-01T14:30:00",
+    "resolved_at": null,
+    "assigned_to": "Tom Anderson",
+    "tags": ["refund", "billing", "cancelled"],
+    "metadata": {
+      "source": "EMAIL",
+      "browser": null,
+      "device_type": "MOBILE"
+    }
+  },
+  {
+    "id": "660e8400-e29b-41d4-a716-446655440004",
+    "customer_id": "CUST104",
+    "customer_email": "denise.evans@example.com",
+    "customer_name": "Denise Evans",
+    "subject": "Add export to PDF feature",
+    "description": "It would be really helpful to have an option to export reports directly to PDF format instead of just CSV and Excel.",
+    "category": "FEATURE_REQUEST",
+    "priority": "MEDIUM",
+    "status": "NEW",
+    "created_at": "2026-02-01T13:45:00",
+    "updated_at": "2026-02-01T13:45:00",
+    "resolved_at": null,
+    "assigned_to": null,
+    "tags": ["export", "pdf", "reports"],
+    "metadata": {
+      "source": "CHAT",
+      "browser": null,
+      "device_type": "DESKTOP"
+    }
+  },
+  {
+    "id": "660e8400-e29b-41d4-a716-446655440005",
+    "customer_id": "CUST105",
+    "customer_email": "eric.fisher@example.com",
+    "customer_name": "Eric Fisher",
+    "subject": "Dashboard widgets disappear on refresh",
+    "description": "After customizing my dashboard and adding widgets, they all disappear when I refresh the page. This bug is very annoying and happens consistently.",
+    "category": "BUG_REPORT",
+    "priority": "MEDIUM",
+    "status": "NEW",
+    "created_at": "2026-02-02T08:30:00",
+    "updated_at": "2026-02-02T08:30:00",
+    "resolved_at": null,
+    "assigned_to": null,
+    "tags": ["dashboard", "widgets", "refresh"],
+    "metadata": {
+      "source": "WEB_FORM",
+      "browser": "Firefox 122",
+      "device_type": "DESKTOP"
+    }
+  },
+  {
+    "id": "660e8400-e29b-41d4-a716-446655440006",
+    "customer_id": "CUST106",
+    "customer_email": "fran.garcia@example.com",
+    "customer_name": "Fran Garcia",
+    "subject": "Need help with API authentication",
+    "description": "I'm having trouble understanding how to properly authenticate API requests. The documentation mentions OAuth but doesn't provide clear examples.",
+    "category": "TECHNICAL_ISSUE",
+    "priority": "MEDIUM",
+    "status": "RESOLVED",
+    "created_at": "2026-02-02T10:00:00",
+    "updated_at": "2026-02-02T15:30:00",
+    "resolved_at": "2026-02-02T15:30:00",
+    "assigned_to": "Mike Rodriguez",
+    "tags": ["api", "authentication", "oauth"],
+    "metadata": {
+      "source": "EMAIL",
+      "browser": null,
+      "device_type": "DESKTOP"
+    }
+  },
+  {
+    "id": "660e8400-e29b-41d4-a716-446655440007",
+    "customer_id": "CUST107",
+    "customer_email": "gary.hernandez@example.com",
+    "customer_name": "Gary Hernandez",
+    "subject": "Account was suspended without notice",
+    "description": "My account was suddenly suspended this morning without any email notification or explanation. I need immediate assistance to restore access.",
+    "category": "ACCOUNT_ACCESS",
+    "priority": "URGENT",
+    "status": "IN_PROGRESS",
+    "created_at": "2026-02-02T11:45:00",
+    "updated_at": "2026-02-02T12:30:00",
+    "resolved_at": null,
+    "assigned_to": "Sarah Chen",
+    "tags": ["suspended", "account", "urgent"],
+    "metadata": {
+      "source": "PHONE",
+      "browser": null,
+      "device_type": "MOBILE"
+    }
+  },
+  {
+    "id": "660e8400-e29b-41d4-a716-446655440008",
+    "customer_id": "CUST108",
+    "customer_email": "helen.irwin@example.com",
+    "customer_name": "Helen Irwin",
+    "subject": "Invoice missing tax details",
+    "description": "The invoice I received doesn't include any tax breakdown which I need for my accounting records. Can you provide a detailed invoice?",
+    "category": "BILLING_QUESTION",
+    "priority": "LOW",
+    "status": "NEW",
+    "created_at": "2026-02-03T09:15:00",
+    "updated_at": "2026-02-03T09:15:00",
+    "resolved_at": null,
+    "assigned_to": null,
+    "tags": ["invoice", "tax", "accounting"],
+    "metadata": {
+      "source": "WEB_FORM",
+      "browser": "Safari 17",
+      "device_type": "TABLET"
+    }
+  },
+  {
+    "id": "660e8400-e29b-41d4-a716-446655440009",
+    "customer_id": "CUST109",
+    "customer_email": "ivan.james@example.com",
+    "customer_name": "Ivan James",
+    "subject": "Batch operations for bulk actions",
+    "description": "Please add the ability to perform batch operations like bulk delete, bulk update status, etc. Currently have to do everything one by one.",
+    "category": "FEATURE_REQUEST",
+    "priority": "HIGH",
+    "status": "NEW",
+    "created_at": "2026-02-03T11:00:00",
+    "updated_at": "2026-02-03T11:00:00",
+    "resolved_at": null,
+    "assigned_to": null,
+    "tags": ["batch", "bulk", "operations"],
+    "metadata": {
+      "source": "API",
+      "browser": null,
+      "device_type": "DESKTOP"
+    }
+  },
+  {
+    "id": "660e8400-e29b-41d4-a716-446655440010",
+    "customer_id": "CUST110",
+    "customer_email": "judy.kelly@example.com",
+    "customer_name": "Judy Kelly",
+    "subject": "Data export includes deleted items",
+    "description": "When exporting data, the CSV file includes items that were previously deleted. This shouldn't happen as it messes up our records.",
+    "category": "BUG_REPORT",
+    "priority": "MEDIUM",
+    "status": "NEW",
+    "created_at": "2026-02-03T13:30:00",
+    "updated_at": "2026-02-03T13:30:00",
+    "resolved_at": null,
+    "assigned_to": null,
+    "tags": ["export", "deleted", "data"],
+    "metadata": {
+      "source": "EMAIL",
+      "browser": null,
+      "device_type": "DESKTOP"
+    }
+  },
+  {
+    "id": "660e8400-e29b-41d4-a716-446655440011",
+    "customer_id": "CUST111",
+    "customer_email": "kyle.lopez@example.com",
+    "customer_name": "Kyle Lopez",
+    "subject": "Mobile app keeps logging out",
+    "description": "The mobile app logs me out randomly every few hours. Very frustrating when I'm in the middle of something important.",
+    "category": "TECHNICAL_ISSUE",
+    "priority": "HIGH",
+    "status": "IN_PROGRESS",
+    "created_at": "2026-02-04T08:45:00",
+    "updated_at": "2026-02-04T10:00:00",
+    "resolved_at": null,
+    "assigned_to": "Tom Anderson",
+    "tags": ["mobile", "logout", "session"],
+    "metadata": {
+      "source": "CHAT",
+      "browser": null,
+      "device_type": "MOBILE"
+    }
+  },
+  {
+    "id": "660e8400-e29b-41d4-a716-446655440012",
+    "customer_id": "CUST112",
+    "customer_email": "linda.martinez@example.com",
+    "customer_name": "Linda Martinez",
+    "subject": "Charged for additional users not added",
+    "description": "My bill shows charges for 10 users but I only have 7 active users on my account. Please review and adjust.",
+    "category": "BILLING_QUESTION",
+    "priority": "HIGH",
+    "status": "WAITING_CUSTOMER",
+    "created_at": "2026-02-04T10:30:00",
+    "updated_at": "2026-02-04T13:00:00",
+    "resolved_at": null,
+    "assigned_to": "Mike Rodriguez",
+    "tags": ["billing", "users", "overcharged"],
+    "metadata": {
+      "source": "WEB_FORM",
+      "browser": "Chrome 120",
+      "device_type": "DESKTOP"
+    }
+  },
+  {
+    "id": "660e8400-e29b-41d4-a716-446655440013",
+    "customer_id": "CUST113",
+    "customer_email": "mark.nelson@example.com",
+    "customer_name": "Mark Nelson",
+    "subject": "Custom fields for tickets",
+    "description": "We need the ability to add custom fields to tickets for our specific workflow requirements. Standard fields are not enough.",
+    "category": "FEATURE_REQUEST",
+    "priority": "MEDIUM",
+    "status": "NEW",
+    "created_at": "2026-02-04T14:15:00",
+    "updated_at": "2026-02-04T14:15:00",
+    "resolved_at": null,
+    "assigned_to": null,
+    "tags": ["custom-fields", "tickets", "workflow"],
+    "metadata": {
+      "source": "EMAIL",
+      "browser": null,
+      "device_type": "DESKTOP"
+    }
+  },
+  {
+    "id": "660e8400-e29b-41d4-a716-446655440014",
+    "customer_id": "CUST114",
+    "customer_email": "nancy.owens@example.com",
+    "customer_name": "Nancy Owens",
+    "subject": "Filter results not accurate",
+    "description": "When applying multiple filters together, the results shown don't match the selected criteria. Some items that shouldn't be there appear in the list.",
+    "category": "BUG_REPORT",
+    "priority": "MEDIUM",
+    "status": "RESOLVED",
+    "created_at": "2026-02-05T09:00:00",
+    "updated_at": "2026-02-05T16:00:00",
+    "resolved_at": "2026-02-05T16:00:00",
+    "assigned_to": "Sarah Chen",
+    "tags": ["filters", "search", "accuracy"],
+    "metadata": {
+      "source": "WEB_FORM",
+      "browser": "Edge 121",
+      "device_type": "DESKTOP"
+    }
+  },
+  {
+    "id": "660e8400-e29b-41d4-a716-446655440015",
+    "customer_id": "CUST115",
+    "customer_email": "oscar.perez@example.com",
+    "customer_name": "Oscar Perez",
+    "subject": "Production server down",
+    "description": "Our production server has been down for the past 30 minutes. This is critical as it's affecting all our customers. Need immediate assistance!",
+    "category": "TECHNICAL_ISSUE",
+    "priority": "URGENT",
+    "status": "IN_PROGRESS",
+    "created_at": "2026-02-05T11:30:00",
+    "updated_at": "2026-02-05T11:45:00",
+    "resolved_at": null,
+    "assigned_to": "Tom Anderson",
+    "tags": ["critical", "production", "downtime"],
+    "metadata": {
+      "source": "PHONE",
+      "browser": null,
+      "device_type": "MOBILE"
+    }
+  },
+  {
+    "id": "660e8400-e29b-41d4-a716-446655440016",
+    "customer_id": "CUST116",
+    "customer_email": "paula.quinn@example.com",
+    "customer_name": "Paula Quinn",
+    "subject": "Payment failed but subscription active",
+    "description": "I received a payment failure notification but my subscription still shows as active. What's the status of my account?",
+    "category": "BILLING_QUESTION",
+    "priority": "MEDIUM",
+    "status": "NEW",
+    "created_at": "2026-02-05T13:45:00",
+    "updated_at": "2026-02-05T13:45:00",
+    "resolved_at": null,
+    "assigned_to": null,
+    "tags": ["payment", "subscription", "status"],
+    "metadata": {
+      "source": "CHAT",
+      "browser": null,
+      "device_type": "TABLET"
+    }
+  },
+  {
+    "id": "660e8400-e29b-41d4-a716-446655440017",
+    "customer_id": "CUST117",
+    "customer_email": "quentin.roberts@example.com",
+    "customer_name": "Quentin Roberts",
+    "subject": "Audit log and activity tracking",
+    "description": "We need comprehensive audit logs to track all user activities and changes for compliance purposes. This is essential for our organization.",
+    "category": "FEATURE_REQUEST",
+    "priority": "HIGH",
+    "status": "NEW",
+    "created_at": "2026-02-06T08:30:00",
+    "updated_at": "2026-02-06T08:30:00",
+    "resolved_at": null,
+    "assigned_to": null,
+    "tags": ["audit", "logging", "compliance"],
+    "metadata": {
+      "source": "API",
+      "browser": null,
+      "device_type": "DESKTOP"
+    }
+  },
+  {
+    "id": "660e8400-e29b-41d4-a716-446655440018",
+    "customer_id": "CUST118",
+    "customer_email": "rita.smith@example.com",
+    "customer_name": "Rita Smith",
+    "subject": "Attachments fail to download",
+    "description": "When trying to download file attachments from tickets, I get an error message saying 'File not found' even though the files were just uploaded.",
+    "category": "BUG_REPORT",
+    "priority": "HIGH",
+    "status": "NEW",
+    "created_at": "2026-02-06T11:00:00",
+    "updated_at": "2026-02-06T11:00:00",
+    "resolved_at": null,
+    "assigned_to": null,
+    "tags": ["attachments", "download", "files"],
+    "metadata": {
+      "source": "WEB_FORM",
+      "browser": "Chrome 120",
+      "device_type": "DESKTOP"
+    }
+  },
+  {
+    "id": "660e8400-e29b-41d4-a716-446655440019",
+    "customer_id": "CUST119",
+    "customer_email": "sam.taylor@example.com",
+    "customer_name": "Sam Taylor",
+    "subject": "General inquiry about features",
+    "description": "I'm evaluating your platform and have some general questions about the available features and pricing plans. Can someone help?",
+    "category": "OTHER",
+    "priority": "LOW",
+    "status": "NEW",
+    "created_at": "2026-02-07T09:45:00",
+    "updated_at": "2026-02-07T09:45:00",
+    "resolved_at": null,
+    "assigned_to": null,
+    "tags": ["inquiry", "evaluation", "pricing"],
+    "metadata": {
+      "source": "EMAIL",
+      "browser": null,
+      "device_type": "MOBILE"
+    }
+  },
+  {
+    "id": "660e8400-e29b-41d4-a716-446655440020",
+    "customer_id": "CUST120",
+    "customer_email": "tanya.upton@example.com",
+    "customer_name": "Tanya Upton",
+    "subject": "Role-based permissions needed",
+    "description": "Need more granular role-based permissions system. Current admin/user roles are too limited for our team structure and security requirements.",
+    "category": "FEATURE_REQUEST",
+    "priority": "HIGH",
+    "status": "CLOSED",
+    "created_at": "2026-02-07T12:15:00",
+    "updated_at": "2026-02-07T16:00:00",
+    "resolved_at": "2026-02-07T16:00:00",
+    "assigned_to": "Mike Rodriguez",
+    "tags": ["permissions", "roles", "security"],
+    "metadata": {
+      "source": "WEB_FORM",
+      "browser": "Firefox 122",
+      "device_type": "DESKTOP"
+    }
+  }
+]
