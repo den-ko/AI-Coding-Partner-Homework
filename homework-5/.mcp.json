@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "lorem-ipsum": {
+      "command": "uv",
+      "args": [
+        "run",
+        "--project",
+        "./mcp-lorem-ipsum",
+        "mcp",
+        "run",
+        "./mcp-lorem-ipsum/server.py"
+      ]
+    }
+  }
+}
